@@ -3,13 +3,10 @@
   "description": "dancer.js is a high-level audio API, usable with the Web Audio API, Mozilla's Audio Data API and flash fallback, designed to make sweet visualizations.",
   "version": "0.4.0",
   "homepage": "https://github.com/jsantell/dancer.js",
-  "author": {
-    "name": "Jordan Santell",
-    "url": "http://jsantell.com"
-  },
+  "author": "Jordan Santell (http://jsantell.com)",
   "repository": {
     "type": "git",
-    "url": "https://github.com/jsantell/dancer.js"
+    "url": "git+https://github.com/jsantell/dancer.js.git"
   },
   "bugs": {
     "url": "https://github.com/jsantell/dancer.js/issues"
@@ -24,5 +21,16 @@
     "grunt": "0.4.2",
     "grunt-contrib-uglify": "0.3.2",
     "grunt-contrib-concat": "0.3.0"
-  }
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "main": "Gruntfile.js",
+  "directories": {
+    "example": "examples"
+  },
+  "dependencies": {
+    "express": "^4.13.4"
+  },
+  "license": "ISC"
 }
